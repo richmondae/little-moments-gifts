@@ -120,7 +120,11 @@ em { font-family: var(--serif); font-weight: 500; }
   transition: border-color .18s ease, background .18s ease, transform .18s ease;
 }
 .theme-toggle:hover, .bag-button:hover { border-color: var(--accent); transform: translateY(-1px); }
-.theme-toggle span:first-child { color: var(--accent); font-size: 16px; line-height: 1; }
+.theme-toggle span:first-child { color: var(--accent); font-size: 18px; line-height: 1; }
+.theme-toggle { width: 42px; padding: 0; }
+.theme-icon::before { content: "\263E"; }
+:root[data-theme="dark"] .theme-icon::before { content: "\2600"; }
+.back::before { content: "\2190  "; }
 .badge { color: var(--accent); }
 
 .hero {

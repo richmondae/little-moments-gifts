@@ -1,3 +1,5 @@
+# GitHub Pages deployment for the static preview
+
 name: Deploy static preview to GitHub Pages
 
 on:
